@@ -9,5 +9,6 @@ int main()
     {
         cout << "N -> " << i << endl;
     }
+    cout << "Bye" << endl;
     return 0;
 }
