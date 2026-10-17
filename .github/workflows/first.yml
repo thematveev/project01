@@ -9,4 +9,7 @@ jobs:
     steps:
       - name: update packages
         run: sudo apt update -y
+
+      - name: say hello to me!
+        run: echo "HELLO WORLD"
     
