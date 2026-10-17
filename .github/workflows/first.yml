@@ -1,0 +1,12 @@
+on:
+  push:
+   branches: 
+    - main
+jobs:
+  testing:
+    name: test new features
+    runs-on: ubuntu-22.04
+    steps:
+      - name: update packages
+        run: sudo apt update -y
+    
